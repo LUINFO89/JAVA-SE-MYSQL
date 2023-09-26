@@ -8,7 +8,7 @@ public class DatabaseConnection {
 
     private static String url = "jdbc:mysql://localhost:3306/bdproyecto2";
     private static String user = "root";
-    private static String pass = "";
+    private static String pass = "";//"macbookpro";
     private static Connection myConn ;
 
 

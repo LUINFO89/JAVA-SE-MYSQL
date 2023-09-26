@@ -13,6 +13,7 @@ public class main {
         try (   Connection myConn = DatabaseConnection.getInstance();
                 Statement myStamt = myConn.createStatement();
                 ResultSet myRes = myStamt.executeQuery("SELECT * FROM usuarios");){
+                System.out.println("Conexion de forma correcta ");
 
                 while (myRes.next()){
                     System.out.println(myRes.getString("nombre"));
